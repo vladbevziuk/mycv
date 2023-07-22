@@ -1,0 +1,87 @@
+html{
+    font-family: Roboto, sans-serif;
+}
+
+h1{
+    color: #2f80ed;
+    margin-bottom: 0.25em;
+}
+
+h2{
+    color: #333333;
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+h3{
+    color:#2f80ed;
+}
+
+* {
+    color: #333333;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+a{
+    color:#2f80ed;
+}
+
+section{
+    margin-bottom: 3em;
+    position:relative;
+}
+.cv {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.contacts{
+    margin-bottom: 2em;
+}
+.contact{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.contact__type{
+    min-width: 90px;
+}
+.educations{
+    margin-bottom: 2em;
+}
+.education__type{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+.education__date{
+    margin-bottom: 2em;
+}
+.experience {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 2em;
+}
+  
+.experience__date {
+    min-width: 185px;
+    margin-bottom: 1em;
+}
+  
+.experience__name {
+    font-weight: bold;
+}
+
+@media (max-width: 575px) {
+    .experience {
+      display: block;
+    }
+}
+
+
